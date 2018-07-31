@@ -1,0 +1,7 @@
+---- DMA_rcv_buffer Matches (6 in 3 files) ----
+Usr_uart_dma.c (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\src):  HAL_UART_Receive_DMA(&huart1, DMA_rcv_buffer, DMA_BUFFER_SIZE);						    //DMA接收
+Usr_uart_dma.c (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\src):      												DMA_rcv_buffer, DMA_rx_len);
+Usr_usart.c (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\src):u8 DMA_rcv_buffer[128];                                                         //DMA接收缓存最大128字节
+Usr_usart.c (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\src)://			//HAL_UART_Receive_DMA(&huart1,DMA_rcv_buffer,DMA_BUFFER_SIZE);			
+Usr_usart.c (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\src):			//HAL_UART_Receive_DMA(&huart1,DMA_rcv_buffer,DMA_BUFFER_SIZE);	
+Usr_usart.h (f:\hm\项目\8517_sony\code\8517串口抓码 stm32f051\app\mk_a9\inc):extern u8 DMA_rcv_buffer[DMA_BUFFER_SIZE]; 
